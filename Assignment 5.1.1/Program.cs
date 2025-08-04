@@ -7,8 +7,12 @@ namespace Assignment_5._1._1
         static void Main(string[] args)
         {
             int number = 323;
+            int number1 = 3243;
+            int number2 = -323;
 
             Console.WriteLine(isPalindrome(number));
+            Console.WriteLine(isPalindrome(number1));
+            Console.WriteLine(isPalindrome(number2));
         }
         static bool isPalindrome(int number) 
         {
